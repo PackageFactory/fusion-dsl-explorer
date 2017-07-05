@@ -1,0 +1,27 @@
+{
+    "name": "packagefactory/fusiondslexplorer",
+    "description": "cli commands to simulate dsl-transpilation or to remove a fusion dsl from your codebase",
+    "type": "neos-package",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Martin Ficzel",
+            "email": "martin.ficzel@gmx.de",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "neos/fusion": "^3.2.0",
+        "sebastian/diff": "~1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "PackageFactory\\FusionDslExplorer\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "PackageFactory.FusionDslExplorer"
+        }
+    }
+}
