@@ -1,5 +1,5 @@
 {
-    "name": "packagefactory/fusiondslexplorer",
+    "name": "packagefactory/fusion-dsl-explorer",
     "description": "cli commands to simulate dsl-transpilation or to remove a fusion dsl from your codebase",
     "type": "neos-package",
     "license": "GPL-3.0",
@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "neos/fusion": "^3.2.0",
+        "neos/fusion": "^3.2.0|dev-master",
         "sebastian/diff": "~1.2"
     },
     "autoload": {
