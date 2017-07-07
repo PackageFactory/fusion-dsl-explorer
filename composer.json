@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "neos/fusion": "^3.2.0|dev-master",
+        "neos/fusion": "^3.2.0 || dev-master",
         "sebastian/diff": "~1.2"
     },
     "autoload": {
