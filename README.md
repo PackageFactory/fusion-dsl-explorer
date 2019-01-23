@@ -11,7 +11,7 @@ The dsl-identifier is mandatory and either package-key or fusion-file have to be
 
 ## Installation
 
-PackageFactory.AtomicFusion.AFX is available via packagist. Just add `"packagefactory/fusion-dsl-explorer" : "~1.0.0"`
+PackageFactory.FusionDslExplorer is available via packagist. Just add `"packagefactory/fusion-dsl-explorer" : "~1.0.0"`
 to the require-section of the composer.json or run `composer require packagefactory/fusion-dsl-explorer`.
 
 __We use semantic-versioning so every breaking change will increase the major-version number.__
